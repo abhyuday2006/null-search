@@ -5,7 +5,6 @@
 
 </div>
 
----
 
 # Overview
 
@@ -68,8 +67,6 @@ Built almost entirely in **modern C++**, with a lightweight React frontend.
 - HTML parsing with Gumbo
 - Readability-style text extraction
 
----
-
 ## Intelligent Indexer
 
 - Full-text indexing using Xapian
@@ -79,7 +76,6 @@ Built almost entirely in **modern C++**, with a lightweight React frontend.
 - Sparse-matrix PageRank implementation
 - Metadata-aware ranking signals
 
----
 
 ## Search & Ranking
 
@@ -91,10 +87,8 @@ Built almost entirely in **modern C++**, with a lightweight React frontend.
   - content length
   - link authority
   - language matching
-
 - Query parsing using Xapian native parser
 
----
 
 ## Privacy-First Design
 
@@ -121,7 +115,6 @@ Built almost entirely in **modern C++**, with a lightweight React frontend.
 | DNS | c-ares |
 | Storage | RocksDB |
 
----
 
 ## Indexer
 
@@ -133,7 +126,6 @@ Built almost entirely in **modern C++**, with a lightweight React frontend.
 | Link Graph | RocksDB |
 | Ranking | Custom PageRank |
 
----
 
 ## Query/API
 
@@ -144,7 +136,6 @@ Built almost entirely in **modern C++**, with a lightweight React frontend.
 | Rate Limiting | In-process token bucket |
 | Output | JSON API |
 
----
 
 ## Frontend
 
@@ -155,7 +146,6 @@ Built almost entirely in **modern C++**, with a lightweight React frontend.
 | State | Zustand |
 | Fonts | DM Serif + Syne + DM Mono |
 
----
 
 ## Infra
 
@@ -190,7 +180,7 @@ Storage Queue
 Indexer
 ```
 
----
+
 
 ## Ranking Pipeline
 
@@ -295,7 +285,6 @@ docker compose up
 
 ```
 
----
 
 ## 🌱 Branch Naming
 
@@ -313,7 +302,6 @@ docs/readme-update
 
 ```
 
----
 
 ## 🧪 Commit Style
 
@@ -331,7 +319,6 @@ docs: improve architecture section
 
 ```
 
----
 ---
  
 ## 👷‍♀️ Build
@@ -398,7 +385,6 @@ PRs, ideas, optimizations, and architecture discussions are welcome.
 
 MIT License
 
----
 
 <div align="center">
 
