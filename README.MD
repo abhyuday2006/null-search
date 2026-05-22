@@ -256,16 +256,85 @@ crawler  ─────► RocksDB Queue ─────► indexer
 
 ---
 
-## Clone
+
+## 📌 Before Contributing
+
+Please:
+
+1. Open an issue first for major changes
+
+2. Keep PRs focused and minimal
+
+3. Follow existing code style
+
+4. Benchmark performance-sensitive changes
+
+5. Avoid unnecessary dependencies
+
+---
+
+## 🛠️ Development Setup
 
 ```bash
-git clone https://github.com/abhyuday2006/nullsearch.git
-cd nullsearch
+
+git clone https://github.com/abhyuday2006/null-search.git
+
+cd null-search
+
+cmake -B build -G Ninja
+
+cmake --build build
+
+```
+
+Run locally:
+
+```bash
+
+docker compose up
+
 ```
 
 ---
 
-## Build
+## 🌱 Branch Naming
+
+Use clear branch names:
+
+```txt
+
+feat/async-fetcher
+
+fix/pagerank-memory-leak
+
+perf/query-cache
+
+docs/readme-update
+
+```
+
+---
+
+## 🧪 Commit Style
+
+Recommended conventional commits:
+
+```txt
+
+feat: add async DNS resolver
+
+fix: prevent duplicate frontier insertions
+
+perf: optimize simhash computation
+
+docs: improve architecture section
+
+```
+
+---
+---
+ 
+## 👷‍♀️ Build
 
 ```bash
 cmake -B build -G Ninja
@@ -307,7 +376,7 @@ docker compose up
 
 ---
 
-# Philosophy
+# ❤️ Philosophy
 
 This project is built around a few ideas:
 
